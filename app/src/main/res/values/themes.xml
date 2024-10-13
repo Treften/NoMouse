@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NoMouse" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground"></item>
+    </style>
+
+    <style name="Theme.NoMouse" parent="Base.Theme.NoMouse">
+    <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+    <style name="Theme.NoMouse.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+</resources>
